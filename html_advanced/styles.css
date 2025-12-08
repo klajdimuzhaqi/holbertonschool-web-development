@@ -1,0 +1,37 @@
+header {
+    background-image: url("images/Header.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 600px;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.menu-container {
+    margin: 0px;
+    width: 300px;
+    float: right;
+}
+
+.menu-container>li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.menu-container>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
