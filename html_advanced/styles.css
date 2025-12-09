@@ -35,3 +35,21 @@ nav {
     font-size: 15px;
     font-weight: bold;
 }
+
+.faq h2 {
+    text-align: center;
+}
+
+.faq-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.faq-item {
+    width: 350px;
+    text-align: left;
+    padding: 15px;
+    border-radius: 8px;
+}
