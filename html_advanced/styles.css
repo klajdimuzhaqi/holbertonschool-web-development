@@ -1,20 +1,17 @@
 header {
-    background-image: url("images/Header.jpg");
+    background-image: url("images/background.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 600px;
-    color: white;
-    text-align: center;
-    padding-top: 120px;
+    background-size: cover;
 }
 
 nav {
     width: 80%;
     margin: 0 auto;
+    padding-top: 50 px;
     overflow: hidden;
-
 }
+
+
 
 .menu-container {
     margin: 0px;
@@ -22,34 +19,125 @@ nav {
     float: right;
 }
 
+
 .menu-container>li {
-    list-style-type: none;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 40px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .menu-container>li>a {
-    text-decoration: none;
-    text-transform: uppercase;
     color: #ffffff;
-    font-size: 15px;
-    font-weight: bold;
+    text-decoration: none;
 }
 
-.faq h2 {
+.get-schooled {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20%;
+    color: #ffffff;
+
+}
+
+.names {
     text-align: center;
 }
 
-.faq-row {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 30px;
+.names>li {
+    display: inline-block;
+    color: #ffffff;
+    width: 100px;
 }
 
-.faq-item {
-    width: 350px;
-    text-align: left;
-    padding: 15px;
-    border-radius: 8px;
+.register {
+    background-color: purple;
+    color: #ffffff;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 80px auto;
+    font-weight: bold;
+    display: block;
+    border-color: purple;
+
+}
+
+.learn {
+    text-align: center;
+
+    color: purple;
+}
+
+.from {
+    text-align: center;
+    color: #ffffff;
+}
+
+.students {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.student {
+    width: 25%;
+    float: left;
+
+
+
+
+
+
+
+
+
+    margin-top: 50px;
+}
+
+.student>h5 {
+    color: #ffffff;
+}
+
+.student>p {
+    color: #ffffff;
+}
+
+.section1 {
+    background-color: #c271cc;
+    padding: 60px;
+}
+
+.rubric {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: white;
+
+}
+
+.weather-person img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.text-box h6 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text-box h6 span {
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.9;
 }
