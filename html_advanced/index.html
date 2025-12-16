@@ -3,91 +3,270 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Project: HTML ADVANCED</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML ADVANCED</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
 
-            <img src="./images/Logo.png" alt="this is image" ;>
-
-            <ul class="menu-container">
-                <li> <a href="https://github.com/">Courses</a></li>
-                <li><a href="https://github.com/">Pricing</a></li>
-                <li><a href="https://github.com/">Login</a></li>
+    <header class="header">
+        <div class="container-nav-clearfix">
+            <img src="images/Logo.png" class="logo" alt="LOGO">
+            <ul class="nav-links-clearfix">
+                <li class="nav-item"><a href="https://intranet.hbtn.io/">Courses</a></li>
+                <li class="nav-item"><a href="https://intranet.hbtn.io/">Pricing</a></li>
+                <li class="nav-item"><a href="https://intranet.hbtn.io/">Login</a></li>
             </ul>
-        </nav>
-
-        <div>
-            <h1 class="get-schooled">Get schooled</h1>
-            <ul class="names">
-                <li>Smiles</li>
-                <li>Grin</li>
-                <li>Laugh</li>
-
-
-            </ul>
-
-            <button class="register">REGISTER FOR FREE</button>
-
-
-
         </div>
 
-        <section>
-
-            <h3 class="from"><span class="learn">Learn </span>from the pros</h3>
-
-
-            <div class="students">
-                <div class="student">
-                    <img src="images/phillip.png" alt="phillip">
-                    <h5>Philip Massey</h5>
-                    <p>Smile of the year<br>2018-2019</p>
-                </div>
-                <div class="student">
-                    <img src="images/nannie.png" alt="nannie">
-                    <h5>Nannie Lawrence</h5>
-                    <p>Smile of the year<br>2017</p>
-                </div>
-                <div class="student">
-                    <img src="images/bruce.png" alt="bruce">
-                    <h5>Bruce Walters</h5>
-                    <p>Smile of the year<br>2019</p>
-                </div>
-                <div class="student">
-                    <img src="images/henry.png" alt="henry">
-                    <h5>Henry Hughes</h5>
-                    <p>Smile of the year<br>2016-2019</p>
-                </div>
-
-
+        <div class="header-content">
+            <div class="hero">
+                <h1 class="hero-title">Get schooled</h1>
+                <p class="hero-subtitle">Smile Grin Laugh</p>
+                <button class="btn-register">Register for free</button>
             </div>
-        </section>
 
+            <div class="pros-section">
+                <p class="section-title"><span>Learn</span> from pros</p>
 
+                <div class="pros-list-clearfix">
+                    <div class="pro-card">
+                        <img src="images/phillip.png" class="pro-img">
+                        <h2 class="pro-name">Phillip Massey</h2>
+                        <p class="pro-desc">Smile of the year<br>2017-2018</p>
+                    </div>
+
+                    <div class="pro-card">
+                        <img src="images/phillip.png" class="pro-img">
+                        <h2 class="pro-name">Phillip Massey</h2>
+                        <p class="pro-desc">Smile of the year<br>2017-2018</p>
+                    </div>
+
+                    <div class="pro-card">
+                        <img src="images/phillip.png" class="pro-img">
+                        <h2 class="pro-name">Phillip Massey</h2>
+                        <p class="pro-desc">Smile of the year<br>2017-2018</p>
+                    </div>
+
+                    <div class="pro-card">
+                        <img src="images/phillip.png" class="pro-img">
+                        <h2 class="pro-name">Phillip Massey</h2>
+                        <p class="pro-desc">Smile of the year<br>2017-2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
+    <main>
+        <section class="testimonial">
+            <div class="testimonial-bg">
+                <div class="container-clearfix">
+                    <img src="images/goni.png" class="testimonial-img" alt="goni">
 
-    <section class="section1">
-        <div class="rubric">
-
-            <div class="weather-person">
-                <img src="images/goni.png" alt="Goni">
+                    <div class="testimonial-text">
+                        <p class="quote">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley
+                            of type and scrambled it to make a type specimen book.
+                        </p>
+                        <h4 class="author">Belly Chris</h4>
+                        <h4 class="profession">Weather person</h4>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <p>Life is full of small moments that shape who we are. Even the quiet days can teach us something new
-                    if we pay attention.
-                    Every step we take, no matter how small, moves us closer to who we want to become.</p>
+            <section class="tutorials">
+                <h2 class="section-title2">Most <span>popular</span> tutorials</h2>
 
-                <h6>Henri Massey<br>Weather presenter</h6>
+                <div class="tutorials-list-clearfix">
+                    <div class="tutorial-card">
+                        <img src="images/diagonal_smile.png" class="tutorial-img" alt="diagonal_smile">
+                        <h3 class="tutorial-title">Diagonal Smile</h3>
+                        <p class="tutorial-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
 
+                        <div class="tutorial-author-clearfix">
+                            <img src="images/phillip.png" class="clearfix-img">
+                            <h4> Philip Massey</h4>
+                        </div>
+
+                        <div class="tutorial-footer-clearfix">
+                            <div class="stars">
+                                <ul class="stars-list-clearfix">
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_gray.png"></li>
+                                </ul>
+                            </div>
+                            <h4 class="duration">8 min</h4>
+                        </div>
+                    </div>
+
+                    <div class="tutorial-card">
+                        <img src="images/diagonal_smile.png" class="tutorial-img" alt="diagonal_smile">
+                        <h3 class="tutorial-title">Diagonal Smile</h3>
+                        <p class="tutorial-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+
+                        <div class="tutorial-author-clearfix">
+                            <img src="images/phillip.png" class="clearfix-img">
+                            <h4> Philip Massey</h4>
+                        </div>
+
+                        <div class="tutorial-footer-clearfix">
+                            <div class="stars">
+                                <ul class="stars-list-clearfix">
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_gray.png"></li>
+                                </ul>
+                            </div>
+                            <h4 class="duration">8 min</h4>
+                        </div>
+                    </div>
+
+                    <div class="tutorial-card">
+                        <img src="images/diagonal_smile.png" class="tutorial-img" alt="diagonal_smile">
+                        <h3 class="tutorial-title">Diagonal Smile</h3>
+                        <p class="tutorial-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+
+                        <div class="tutorial-author-clearfix">
+                            <img src="images/phillip.png" class="clearfix-img">
+                            <h4> Philip Massey</h4>
+                        </div>
+
+                        <div class="tutorial-footer-clearfix">
+                            <div class="stars">
+                                <ul class="stars-list-clearfix">
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_gray.png"></li>
+                                </ul>
+                            </div>
+                            <h4 class="duration">8 min</h4>
+                        </div>
+                    </div>
+
+                    <div class="tutorial-card">
+                        <img src="images/diagonal_smile.png" class="tutorial-img" alt="diagonal_smile">
+                        <h3 class="tutorial-title">Diagonal Smile</h3>
+                        <p class="tutorial-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
+
+                        <div class="tutorial-author-clearfix">
+                            <img src="images/phillip.png" class="clearfix-img">
+                            <h4> Philip Massey</h4>
+                        </div>
+
+                        <div class="tutorial-footer-clearfix">
+                            <div class="stars">
+                                <ul class="stars-list-clearfix">
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_color.png"></li>
+                                    <li><img src="images/star_gray.png"></li>
+                                </ul>
+                            </div>
+                            <h4 class="duration">8 min</h4>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </section>
+
+        <section class="membership">
+            <h2 class="section-title3"><span>Free</span> membership </h2>
+
+            <div class="membership-list-clearfix">
+                <div class="membership-card">
+                    <img src="images/smile.png" alt="Smile">
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+
+                <div class="membership-card">
+                    <img src="images/smile.png" alt="Smile">
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+
+                <div class="membership-card">
+                    <img src="images/smile.png" alt="Smile">
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+
+                <div class="membership-card">
+                    <img src="images/smile.png" alt="Smile">
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
             </div>
-        </div>
-    </section>
+
+            <button class="buton-register">Register for free</button>
+        </section>
+
+        <section class="faq">
+            <h1 class="section-title4">F.A.Q</h1>
+
+            <div class="faq-columns-clearfix">
+                <div class="faq-column">
+                    <div class="faq-item">
+                        <h3>How does this work?</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>How does this work?</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+
+                <div class="faq-column">
+                    <div class="faq-item">
+                        <h3>How does this work?</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>How does this work?</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer-content">
+            <div class="container-clearfix">
+                <img src="images/Logo.png" class="footer-logo" alt="smile-school">
+
+                <div class="social-icons">
+                    <img src="images/facebook.png">
+                    <img src="images/twiter.png">
+                    <img src="images/instagram.png">
+                </div>
+
+                <p class="footer-text">Holberton 2025</p>
+            </div>
+        </section>
+    </footer>
+
 </body>
 
 </html>

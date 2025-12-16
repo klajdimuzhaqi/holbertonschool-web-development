@@ -1,143 +1,302 @@
-header {
-    background-image: url("images/background.png");
+.header {
+    background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-nav {
+.container-nav-clearfix {
+    margin: 20px auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+.logo {
+    float: left;
+    margin-top: 30px;
+}
+
+.nav-links-clearfix {
+    overflow: auto;
+    list-style: none;
+}
+
+.nav-links-clearfix a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item {
+    float: right;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.header-content {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.hero-title {
+    text-align: center;
+    font-size: 110px;
+    margin-top: 105px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.hero-subtitle {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    word-spacing: 30px;
+    font-weight: bold;
+}
+
+.btn-register {
+    background-color: #C271FF;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 10px;
+    width: 15%;
+    margin: 40px auto;
+    display: block;
+    border: none;
+
+}
+
+.pros-section {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+
+.section-title>span {
+    color: #C271FF;
+
+}
+
+.pros-list-clearfix {
+    width: 80%;
+    overflow: hidden;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.pro-card {
+    float: left;
+    width: 24%;
+    margin-left: 7px;
+    margin-top: 30px;
+}
+
+.pro-name {
+    color: #ffffff;
+
+}
+
+.pro-desc {
+    color: #ffffff;
+}
+
+.testimonial-bg {
+    background-color: #C271FF;
+}
+
+.container-clearfix {
     width: 80%;
     margin: 0 auto;
-    padding-top: 50 px;
     overflow: hidden;
 }
 
-
-
-.menu-container {
-    margin: 0px;
-    width: 300px;
-    float: right;
-}
-
-
-.menu-container>li {
-    display: inline-block;
-    margin-right: 40px;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.menu-container>li>a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.get-schooled {
-    text-align: center;
-    font-size: 70px;
-    margin-top: 20%;
-    color: #ffffff;
-
-}
-
-.names {
-    text-align: center;
-}
-
-.names>li {
-    display: inline-block;
-    color: #ffffff;
-    width: 100px;
-}
-
-.register {
-    background-color: purple;
-    color: #ffffff;
-    border-radius: 40px;
-    padding: 10px;
-    margin: 80px auto;
-    font-weight: bold;
-    display: block;
-    border-color: purple;
-
-}
-
-.learn {
-    text-align: center;
-
-    color: purple;
-}
-
-.from {
-    text-align: center;
-    color: #ffffff;
-}
-
-.students {
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-.student {
-    width: 25%;
+.testimonial-img {
     float: left;
+    margin: 40px;
 
-
-
-
-
-
-
-
-
-    margin-top: 50px;
 }
 
-.student>h5 {
+.testimonial-text {
+    margin-top: 60px;
     color: #ffffff;
 }
 
-.student>p {
-    color: #ffffff;
-}
-
-.section1 {
-    background-color: #c271cc;
-    padding: 60px;
-}
-
-.rubric {
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    color: white;
-
-}
-
-.weather-person img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.text-box p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-    width: 100%;
-}
-
-.text-box h6 {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.text-box h6 span {
-    font-size: 14px;
+.profession {
     font-style: italic;
-    opacity: 0.9;
+}
+
+.tutorials {
+    /* width: 80%; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section-title2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.section-title2>span {
+    color: #C271FF;
+}
+
+.tutorials-list-clearfix {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+.tutorial-card {
+    float: left;
+    width: 24%;
+    margin-right: 10px;
+}
+
+.tutorial-author-clearfix {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.clearfix-img {
+    width: 36px;
+    float: left;
+    margin-top: 10px;
+}
+
+.tutorial-author-clearfix>h4 {
+    margin-left: 50px;
+    width: auto;
+    color: #C271FF;
+}
+
+.tutorial-footer-clearfix {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.stars-list-clearfix {
+    float: left;
+    width: 65%;
+}
+
+.stars-list-clearfix>li {
+    float: left;
+    margin-right: 5px;
+    list-style: none;
+}
+
+.duration {
+    color: #C271FF;
+}
+
+.membership {
+    background-color: #081a32;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section-title3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-title3>span {
+    color: #C271FF;
+    font-size: 30px;
+}
+
+.membership-list-clearfix {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+.membership-card {
+    text-align: center;
+    float: left;
+    margin: auto;
+    width: 25%;
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.buton-register {
+
+    background-color: #C271FF;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px;
+    width: 12%;
+    margin: 40px auto;
+    display: block;
+}
+
+.faq {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-title4 {
+    text-align: center;
+    margin-top: 70px;
+    letter-spacing: 2px;
+}
+
+.faq-columns-clearfix {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.faq-column {
+    float: left;
+    width: 48%;
+    margin-left: 18px;
+}
+
+.faq-item {
+    margin-bottom: 50px;
+}
+
+.faq-item>p {
+    color: grey;
+}
+
+.footer {
+    background-color: #081a32;
+}
+
+.container-clearfix {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer-logo {
+    float: left;
+    margin: 40px auto;
+}
+
+.social-icons {
+    float: right;
+    margin: 40px auto;
+    margin-right: 50px;
+}
+
+.footer-text {
+    color: grey;
+    text-align: center;
+    margin-top: 90px;
 }
