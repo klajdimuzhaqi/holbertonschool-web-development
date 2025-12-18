@@ -300,3 +300,143 @@
     text-align: center;
     margin-top: 90px;
 }
+
+
+
+
+@media (max-width: 426px) {
+    .logo {
+        float: none;
+        display: block;
+        margin: 20px auto;
+
+    }
+
+    .nav-item {
+        float: none;
+        margin: 10px auto;
+        text-align: left;
+    }
+
+
+    .hero-title {
+        margin: 10px auto;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .nav-links-clearfix {
+        padding: 0px;
+    }
+
+    .hero-subtitle {
+        font-size: 13px;
+        margin-top: 40px;
+    }
+
+    .btn-register {
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    .section-title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .pro-card {
+        float: none;
+        width: 100%;
+    }
+
+    .tutorial-card {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .membership-card {
+        float: none;
+        width: 80%;
+        margin-bottom: 60px;
+    }
+
+    .buton-register {
+        width: 60%;
+        margin-bottom: 70px
+    }
+
+    .section-title4 {
+        margin: 40px auto;
+    }
+
+    .faq-columns-clearfix {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faq-column {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .faq-columns-clearfix {
+        gap: 0px;
+    }
+
+    .clearfix-img {
+        width: 60px;
+    }
+
+    .stars-list-clearfix {
+        padding: 0px;
+        display: inline-block;
+    }
+
+    .duration {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .author,
+    .profession {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .testimonial-img {
+
+        float: none;
+        display: block;
+        margin: 20px auto;
+
+    }
+
+
+    .footer-logo {
+        display: block;
+        float: none;
+    }
+
+    .social-icons {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .footer-text {
+
+        width: 100%;
+        margin: 0px color: grey;
+    }
+
+
+
+
+
+
+
+
+
+
+}
