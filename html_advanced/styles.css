@@ -305,11 +305,11 @@
 
 
 @media (max-width: 426px) {
+
     .logo {
         float: none;
         display: block;
         margin: 20px auto;
-
     }
 
     .nav-item {
@@ -343,6 +343,7 @@
         font-size: 20px;
         margin-top: 20px;
     }
+
 
     .pro-card {
         float: none;
@@ -383,7 +384,6 @@
 
     .faq-columns-clearfix {
         gap: 0px;
-
     }
 
     .clearfix-img {
@@ -407,11 +407,9 @@
     }
 
     .testimonial-img {
-
         float: none;
         display: block;
         margin: 20px auto;
-
     }
 
 
@@ -426,15 +424,113 @@
     }
 
     .footer-text {
-
         width: 100%;
-        margin: 0px color: grey;
+        margin: 0px color grey;
     }
 
+}
+
+@media (min-width: 427px) and (max-width: 768px) {
 
 
+    .hero-title {
+        text-align: center;
+        font-size: 70px;
+        margin: 50px;
+    }
 
+    .hero-subtitle {
+        margin: 40px;
+    }
 
+    .btn-register {
+        width: 30%;
+        margin: 60px auto;
+    }
+
+    .section-title {
+        margin: 40px auto;
+    }
+
+    .pros-list-clearfix {
+        overflow: hidden;
+        width: 80%;
+    }
+
+    .pro-card {
+
+        width: 45%;
+        margin-left: 0;
+        padding: 10px;
+
+    }
+
+    .tutorials-list-clearfix {
+        overflow: hidden;
+        width: 80%;
+
+    }
+
+    .tutorial-card {
+        width: 47%;
+        margin: 10px auto;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    .tutorial-author-clearfix {
+        text-align: center;
+    }
+
+    .tutorial-img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .tutorial-title,
+    .tutorial-desc {
+        text-align: center;
+    }
+
+    .clearfix-img {
+        width: 50px;
+        margin-left: 30px;
+    }
+
+    .tutorial-footer-clearfix {
+        margin: 0 auto;
+        margin-left: 10px;
+    }
+
+    .tutorial-author-clearfix>h4 {
+        margin-top: 27px;
+    }
+
+    .stars-list-clearfix {
+        width: 50%;
+    }
+
+    .stars-list-clearfix {
+        margin-left: 10px;
+        margin-top: 13px;
+        padding: 10px;
+    }
+
+    .membership-list-clearfix {
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .membership-card {
+        width: 47%;
+        margin-bottom: 40px;
+        margin-right: 10px;
+    }
+
+    .buton-register {
+        width: 150px;
+        margin-top: 20px;
+    }
 
 
 
